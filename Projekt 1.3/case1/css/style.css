@@ -1,0 +1,180 @@
+a {
+    text-decoration: none;
+}
+
+
+.baggrund 
+{
+    background: black;
+    
+}
+
+.alt-tekst {
+   color:white;
+    font-family:sans-serif;
+}
+
+.billedet {
+    width: 90%;
+    height: 90%;
+}
+
+#logo {
+    width: 50%;
+    height: 50%
+}
+
+/*
+
+@media only screen and (max-width: 768px) {
+    
+    .billedet {
+    width: 90%;
+    height: 90%;
+}
+
+    }
+*/
+
+#billedebod {
+    width: 100%;
+    height: auto;
+}
+
+
+@import url(https://fonts.googleapis.com/css?family=Lato);
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+@import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+.snip1518 {
+  font-family: 'Lato', Arial, sans-serif;
+  position: relative;
+  float: left;
+  overflow: hidden;
+  margin: 10px 1%;
+  min-width: 250px;
+  max-width: 310px;
+  width: 100%;
+  background-color: #ffffff;
+  color: #2B2B2B;
+  text-align: center;
+  font-size: 16px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+}
+
+.snip1518 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.snip1518 img {
+  max-width: 100%;
+  vertical-align: top;
+  position: relative;
+}
+
+.snip1518 figcaption {
+  padding: 10%;
+  padding-bottom: calc(25%);
+  background-color: #ffffff;
+}
+
+.snip1518 h3 {
+  font-family: 'Oswald';
+
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 3px 0;
+}
+
+.snip1518 h5 {
+  font-weight: 400;
+  margin: 0;
+  text-transform: uppercase;
+  color: #888;
+  letter-spacing: 1px;
+}
+
+/*
+.snip1518 footer {
+  border-top: 1px solid rgba(0, 0, 0, 0.065);
+  padding: 0 20px;
+  font-size: 13px;
+  line-height: 50px;
+  text-align: left;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+*/
+
+
+.snip1518 footer .icons {
+  position: absolute;
+  right: 20px;
+  top: 0;
+}
+
+/*
+.snip1518 footer .icons > div {
+  display: inline-block;
+  margin-left: 8px;
+}
+
+*/
+
+
+.snip1518 footer .icons i {
+  display: inline-block;
+  margin-right: 5px;
+  font-size: 1em;
+}
+
+.snip1518 a {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  z-index: 1;
+}
+
+
+body {
+  background-color: #212121;
+  padding: 0 5px;
+}
+
+
+.pow {
+    text-align: justify;
+   
+}
+
+function myMap() {
+    var mapOptions = {
+        center: new google.maps.LatLng(51.5, -0.12),
+        zoom: 10,
+        mapTypeId: google.maps.MapTypeId.HYBRID
+    }
+var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+}
+
+
+.stor-tekst {
+    font-size: 50px;
+}
+
+#blah {
+    font-size: 100px;
+}
+
+
+#kapow {
+    color:white;
+    text-decoration-line: underline;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+}
